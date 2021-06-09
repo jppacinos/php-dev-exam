@@ -3,7 +3,7 @@
 ### Local setup
 
 -   run `composer install` (requires Composer: https://getcomposer.org)
--   configure `.env.example` to `.env` update config (also see: .env.backup)
+-   configure `.env.example` to `.env` update config (also see: .env-backup)
 -   run `php artisan key:generate`
 -   run migrations `php artisan migrate:fresh --seed`
 -   run development server `php artisan serve`
